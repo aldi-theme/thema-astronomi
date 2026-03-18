@@ -129,7 +129,7 @@ if [ "$source_choice" == "2" ]; then
     
     # Clone repository
     rm -rf /tmp/astronaut-theme
-    git clone https://github.com/aldi-t/pterodactyl-astronaut-theme.git /tmp/astronaut-theme
+    git clone https://github.com/aldi-theme/thema-astronomi.git /tmp/astronaut-theme
     
     if [ $? -eq 0 ]; then
         echo -e "${GREEN}✅ Berhasil download tema${NC}"
